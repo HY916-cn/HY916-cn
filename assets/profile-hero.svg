@@ -1,8 +1,8 @@
-<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Haoyu Huang — Built to run</title>
-  <desc id="desc">Dark terminal-inspired profile banner for HY916.</desc>
+  <desc id="desc">Profile banner for Haoyu Huang, focused on web systems, native macOS tools, and server infrastructure.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
       <stop stop-color="#080B11"/>
       <stop offset="1" stop-color="#101722"/>
     </linearGradient>
@@ -11,53 +11,41 @@
       <stop offset="1" stop-color="#55E6FF"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#8DA0BB" stroke-opacity="0.07"/>
+      <path d="M40 0H0V40" stroke="#8DA0BB" stroke-opacity="0.06"/>
     </pattern>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <rect width="1200" height="400" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="400" rx="24" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="398" rx="23" stroke="#94A8C5" stroke-opacity="0.22" stroke-width="2"/>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="23" stroke="#94A8C5" stroke-opacity="0.22" stroke-width="2"/>
 
   <g opacity="0.75">
     <circle cx="42" cy="35" r="5" fill="#FF6B6B"/>
     <circle cx="60" cy="35" r="5" fill="#FFD166"/>
     <circle cx="78" cy="35" r="5" fill="#C8FF3D"/>
     <text x="104" y="41" fill="#8292A9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="1.5">hy916://profile</text>
-    <text x="1128" y="41" fill="#8292A9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" text-anchor="end">SINGAPORE / ONLINE</text>
+    <text x="1128" y="41" fill="#8292A9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" text-anchor="end">SINGAPORE · UTC+8</text>
   </g>
   <path d="M72 76H1128" stroke="url(#accent)" stroke-opacity="0.38"/>
 
-  <text x="72" y="133" fill="#C8FF3D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="4">HAOYU HUANG / HY916</text>
-  <text x="67" y="221" fill="#F4F7FC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="76" font-weight="800" letter-spacing="-3">BUILT TO RUN.</text>
-  <text x="72" y="268" fill="#9BAAC0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" letter-spacing="1.3">WEB SYSTEMS / SELF-HOSTING / SERVER INFRA</text>
-  <g transform="translate(72 318)">
-    <rect width="13" height="22" rx="2" fill="#55E6FF" filter="url(#glow)"/>
-    <text x="27" y="17" fill="#DCE5F2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Useful tools for real problems.</text>
+  <text x="72" y="130" fill="#C8FF3D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="4">HAOYU HUANG / HY916</text>
+  <text x="67" y="215" fill="#F4F7FC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="72" font-weight="800" letter-spacing="-3">BUILT TO RUN.</text>
+  <text x="72" y="258" fill="#9BAAC0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="1.1">WEB SYSTEMS · NATIVE MACOS · SERVER INFRA</text>
+  <g transform="translate(72 293)">
+    <rect width="11" height="19" rx="2" fill="#55E6FF"/>
+    <text x="25" y="15" fill="#DCE5F2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">Useful software for real problems.</text>
   </g>
 
-  <g transform="translate(895 111)">
-    <rect width="233" height="220" rx="12" fill="#0A1019" stroke="#8292A9" stroke-opacity="0.3"/>
-    <text x="20" y="32" fill="#8292A9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2">SYSTEM STATUS</text>
-    <path d="M20 48H213" stroke="#8292A9" stroke-opacity="0.22"/>
-    <circle cx="24" cy="78" r="4" fill="#C8FF3D" filter="url(#glow)"/>
-    <text x="40" y="83" fill="#DCE5F2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">WEB</text>
-    <text x="210" y="83" fill="#C8FF3D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="end">SHIPPING</text>
-    <circle cx="24" cy="119" r="4" fill="#55E6FF" filter="url(#glow)"/>
-    <text x="40" y="124" fill="#DCE5F2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">SERVERS</text>
-    <text x="210" y="124" fill="#55E6FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="end">ACTIVE</text>
-    <circle cx="24" cy="160" r="4" fill="#C8FF3D" filter="url(#glow)"/>
-    <text x="40" y="165" fill="#DCE5F2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">IDEAS</text>
-    <text x="210" y="165" fill="#C8FF3D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="end">BUILDING</text>
-    <path d="M20 191H126" stroke="#C8FF3D" stroke-width="3"/>
-    <path d="M132 191H174" stroke="#55E6FF" stroke-width="3"/>
-    <path d="M180 191H213" stroke="#8292A9" stroke-opacity="0.28" stroke-width="3"/>
+  <g transform="translate(898 105)">
+    <rect width="230" height="190" rx="12" fill="#0A1019" stroke="#8292A9" stroke-opacity="0.3"/>
+    <text x="20" y="31" fill="#8292A9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2">FOCUS</text>
+    <path d="M20 47H210" stroke="#8292A9" stroke-opacity="0.22"/>
+
+    <text x="20" y="81" fill="#C8FF3D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">01</text>
+    <text x="53" y="81" fill="#DCE5F2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">SELF-HOSTED WEB</text>
+    <text x="20" y="120" fill="#55E6FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">02</text>
+    <text x="53" y="120" fill="#DCE5F2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">NATIVE MACOS</text>
+    <text x="20" y="159" fill="#C8FF3D" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">03</text>
+    <text x="53" y="159" fill="#DCE5F2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">SERVER SYSTEMS</text>
   </g>
 </svg>
